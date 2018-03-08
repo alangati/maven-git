@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vitormp</groupId>
-	<artifactId>git-release-example</artifactId>
+	<artifactId>maven-git</artifactId>
 	<version>0.1.11-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:git@github.com:sundeepbobba/git-release-example.git</connection>
-		<developerConnection>scm:git:git@github.com:sundeepbobba/git-release-example.git</developerConnection>
-		<url>scm:git:git@github.com:sundeepbobba/git-release-example.git</url>
+		<connection>scm:http://github.com/alangati/maven-git.git</connection>
+		<developerConnection>scm:http://github.com/alangati/maven-git.git</developerConnection>
+		<url>scm:http://github.com/alangati/maven-git.git</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -20,15 +20,15 @@
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<name>My releases</name>
-			<url>http://0.0.0.0:8081/repository/Releases</url>
+			<name>arun-release</name>
+			<url>http://localhost:8081/repository/arun-release/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
-			<name>My snapshots</name>
-			<url>http://0.0.0.0:8081/repository/Snapshots</url>
+			<name>arun-snapshot</name>
+			<url>http://localhost:8081/repository/arun-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
