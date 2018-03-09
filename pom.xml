@@ -4,7 +4,7 @@
 
 	<groupId>com.vitormp</groupId>
 	<artifactId>maven-git</artifactId>
-	<version>0.1.11-SNAPSHOT</version>
+	<version>0.1.12</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
@@ -13,7 +13,7 @@
 		<connection>scm:git:https://github.com/alangati/maven-git.git</connection>
 		<developerConnection>scm:git:https://github.com/alangati/maven-git.git</developerConnection>
 		<url>scm:git:https://github.com/alangati/maven-git.git</url>
-	  <tag>HEAD</tag>
+	  <tag>maven-git-0.1.12</tag>
   </scm>
 
 	<distributionManagement>
