@@ -10,9 +10,9 @@
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:http://github.com/alangati/maven-git.git</connection>
-		<developerConnection>scm:http://github.com/alangati/maven-git.git</developerConnection>
-		<url>scm:http://github.com/alangati/maven-git.git</url>
+		<connection>scm:git:https://github.com/alangati/maven-git.git</connection>
+		<developerConnection>scm:git:https://github.com/alangati/maven-git.git</developerConnection>
+		<url>scm:git:https://github.com/alangati/maven-git.git</url>
 	  <tag>HEAD</tag>
   </scm>
 
@@ -56,3 +56,4 @@
 
 
 </project>
+
